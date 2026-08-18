@@ -1,0 +1,44 @@
+# Ignore Python bytecode, caches, and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables file
+.env
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Test and coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Mypy / caching
+.mypy_cache/
+.pyre/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Misc
+pip-log.txt
+pip-delete-this-directory.txt
