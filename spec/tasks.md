@@ -686,4 +686,4 @@ A task is complete only when:
 - Documentation, API contracts, migrations, configuration, or runbooks are updated when affected.
 - No secrets are introduced into source, fixtures, client bundles, API responses, or logs.
 - The change preserves idempotency and the approved MVP boundary.
-- The task is traceable to the specification and constitution requirements.,
+- The task is traceable to the specification and constitution requirements.
