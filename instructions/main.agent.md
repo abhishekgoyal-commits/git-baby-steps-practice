@@ -32,6 +32,20 @@ This directory contains specialized agent instructions for common project tasks.
 
 **Usage:** When retrieving, validating, aggregating, or formatting active-sprint issue data
 
+### [jira-analysis.agent.md](jira-analysis.agent.md)
+**Purpose:** Use `tools/jira-analysis.py` to fetch or load Jira issues and generate a Markdown status report
+
+**Keywords:** Jira analysis, Jira status report, sprint health, issue progress, team view
+
+**Usage:** When running the Jira analysis CLI or documenting its inputs, outputs, and validation
+
+### [sprint-velocity-analysis.agent.md](sprint-velocity-analysis.agent.md)
+**Purpose:** Use `tools/sprint-velocity-analysis.py` to calculate sprint velocity from completed story-point values
+
+**Keywords:** sprint velocity, completed story points, velocity calculation, sprint metrics
+
+**Usage:** When calculating or documenting velocity from a supplied set of story-point values
+
 ---
 
 ## Adding New Instructions
