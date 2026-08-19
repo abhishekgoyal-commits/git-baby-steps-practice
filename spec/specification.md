@@ -5,6 +5,17 @@
 **Status**: Draft  
 **Input**: `project_spec.md` and `spec/constitution.md`
 
+## MVP Boundary Decision
+
+**Decision**: Approved for MVP planning  
+**Decision date**: 2026-08-19  
+**Product approver**: Delivery Manager  
+**Technical approver**: Project Maintainer
+
+The MVP is a read-only dashboard for exactly one configured active Jira sprint. It provides sprint KPIs, team-member workload summaries, blocked and overdue risk views, stale/error states, and daily plus approved on-demand refresh. PostgreSQL 15 is the durable store, and the React 18 + Vite frontend accesses Jira data only through the Node.js + Express backend.
+
+The following capabilities are explicitly excluded from the MVP: Confluence page or comment publishing, multi-sprint trends, cross-project portfolio reporting, Slack or email notifications, PDF or scheduled report exports, editing Jira issues from the dashboard, and capacity planning. Confluence remains a future integration boundary only; any publication feature requires a separate approved specification.
+
 ## Overview
 
 Build a manager-focused dashboard that retrieves data for one active Jira sprint, calculates sprint health and delivery risk, and presents the results by team member. The initial release is a read-only live dashboard with a daily refresh. The system uses a React 18 + Vite frontend, a Node.js + Express backend, and PostgreSQL 15 running through Docker.
