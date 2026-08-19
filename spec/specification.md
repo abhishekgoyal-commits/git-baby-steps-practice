@@ -260,4 +260,4 @@ The response MUST identify the snapshot used, its source scope, and whether the 
 - PDF or scheduled report exports.
 - Automatic Confluence page or comment publication.
 - Editing Jira issues from the dashboard.
-- Replacing Jira workflow, status definitions, or team capacity planning systems.,
+- Replacing Jira workflow, status definitions, or team capacity planning systems.
