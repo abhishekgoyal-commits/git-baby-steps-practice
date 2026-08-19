@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "echo-windows": {
+      "command": "C:\\Windows\\py.exe",
+      "args": ["-3", "${workspaceFolder}/tools/mcp_echo.py"]
+    },
+    "atlassian": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:ATLASSIAN_API_TOKEN}"
+      }
+    }
+  }
+}
