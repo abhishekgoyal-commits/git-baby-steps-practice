@@ -1,0 +1,188 @@
+[
+  {
+    "file": ".github\\copilot-instructions.md",
+    "title": "Copilot Instructions",
+    "heading_count": 0,
+    "word_count": 41
+  },
+  {
+    "file": ".github\\prompts\\to-creating-instructions.prompt.md",
+    "title": "To Creating Instructions.Prompt",
+    "heading_count": 0,
+    "word_count": 26
+  },
+  {
+    "file": ".github\\prompts\\to-fetch-and-summarize-jira-sprint-data.prompt.md",
+    "title": "To Fetch And Summarize Jira Sprint Data.Prompt",
+    "heading_count": 0,
+    "word_count": 25
+  },
+  {
+    "file": "backlog.md",
+    "title": "Implementation Backlog: Jira Sprint Progress Dashboard",
+    "heading_count": 32,
+    "word_count": 1792
+  },
+  {
+    "file": "instructions\\calculate-compound-interest.agent.md",
+    "title": "Calculate Compound Interest",
+    "heading_count": 5,
+    "word_count": 211
+  },
+  {
+    "file": "instructions\\create-status-report.agent.md",
+    "title": "Weekly Status Report Generation Agent",
+    "heading_count": 14,
+    "word_count": 266
+  },
+  {
+    "file": "instructions\\creating-instructions.agent.md",
+    "title": "Creating Instructions",
+    "heading_count": 1,
+    "word_count": 165
+  },
+  {
+    "file": "instructions\\fetch-and-summarize-jira-sprint-data.agent.md",
+    "title": "Fetch And Summarize Jira Sprint Data.Agent",
+    "heading_count": 0,
+    "word_count": 374
+  },
+  {
+    "file": "instructions\\jira-analysis.agent.md",
+    "title": "Jira Analysis Agent",
+    "heading_count": 9,
+    "word_count": 475
+  },
+  {
+    "file": "instructions\\main.agent.md",
+    "title": "Agent Instructions Directory",
+    "heading_count": 9,
+    "word_count": 303
+  },
+  {
+    "file": "instructions\\sprint-velocity-analysis.agent.md",
+    "title": "Sprint Velocity Analysis Agent",
+    "heading_count": 8,
+    "word_count": 331
+  },
+  {
+    "file": "instructions\\validation-rules.md",
+    "title": "Delivery Management Reporting Validation Rules",
+    "heading_count": 9,
+    "word_count": 373
+  },
+  {
+    "file": "modules\\walkthrough.md",
+    "title": "Delivery Walkthrough",
+    "heading_count": 1,
+    "word_count": 200
+  },
+  {
+    "file": "notes.md",
+    "title": "Welcome",
+    "heading_count": 1,
+    "word_count": 16
+  },
+  {
+    "file": "PROJECT_IDEAS.md",
+    "title": "Project Ideas for Jira/Confluence Automation",
+    "heading_count": 11,
+    "word_count": 344
+  },
+  {
+    "file": "project_spec.md",
+    "title": "Project Specification: Jira Sprint Progress Dashboard for a Delivery Manager",
+    "heading_count": 39,
+    "word_count": 1204
+  },
+  {
+    "file": "reports\\example.md",
+    "title": "Status Report",
+    "heading_count": 6,
+    "word_count": 275
+  },
+  {
+    "file": "reports\\instructions.md",
+    "title": "How to Fill Out the Status Report",
+    "heading_count": 7,
+    "word_count": 282
+  },
+  {
+    "file": "reports\\template.md",
+    "title": "Status Report",
+    "heading_count": 6,
+    "word_count": 75
+  },
+  {
+    "file": "reports\\weekly-status-2026-08-16.md",
+    "title": "Weekly Status Report \u2013 August 12-16, 2026",
+    "heading_count": 4,
+    "word_count": 106
+  },
+  {
+    "file": "reports\\weekly-status-2026-08-19.md",
+    "title": "Weekly Status Report \u2013 August 17-19, 2026",
+    "heading_count": 4,
+    "word_count": 172
+  },
+  {
+    "file": "skills\\skills.md",
+    "title": "Tool Skills Library",
+    "heading_count": 5,
+    "word_count": 280
+  },
+  {
+    "file": "TODO.md",
+    "title": "Project Tasks",
+    "heading_count": 4,
+    "word_count": 52
+  },
+  {
+    "file": "work\\module-03-report.md",
+    "title": "Module 03 Completion Report",
+    "heading_count": 16,
+    "word_count": 158
+  },
+  {
+    "file": "work\\module-08-report.md",
+    "title": "Module 08 Completion Report",
+    "heading_count": 43,
+    "word_count": 1238
+  },
+  {
+    "file": "work\\module-09-report.md",
+    "title": "Module 09 Completion Report",
+    "heading_count": 36,
+    "word_count": 1796
+  },
+  {
+    "file": "work\\module-10-report.md",
+    "title": "Module 10 Completion Report",
+    "heading_count": 11,
+    "word_count": 658
+  },
+  {
+    "file": "work\\module-12-report.md",
+    "title": "Module 12 Completion Report",
+    "heading_count": 13,
+    "word_count": 896
+  },
+  {
+    "file": "work\\module-13-report.md",
+    "title": "Module 13 Completion Report",
+    "heading_count": 5,
+    "word_count": 131
+  },
+  {
+    "file": "work\\module-14-report.md",
+    "title": "Module 14 Completion Report",
+    "heading_count": 36,
+    "word_count": 1850
+  },
+  {
+    "file": "work\\module03-task\\README.md",
+    "title": "Simple Python Calculator",
+    "heading_count": 3,
+    "word_count": 85
+  }
+]
