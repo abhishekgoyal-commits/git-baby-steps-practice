@@ -61,4 +61,4 @@ Every pull request MUST demonstrate:
 
 This constitution is the governing standard for project decisions. When existing code conflicts with it, the change owner MUST document the conflict, its risk, and a remediation path in the pull request. Exceptions require explicit approval from a project maintainer and MUST include scope, rationale, expiration or review date, and compensating controls.
 
-Amendments MUST be proposed as reviewed changes to this file, include an updated version and amendment date, and describe their impact on existing specifications and implementation. Principles are binding unless an approved exception exists. Feature specifications, plans, and code reviews SHOULD reference the applicable principle or quality gate when the connection is not obvious.,
+Amendments MUST be proposed as reviewed changes to this file, include an updated version and amendment date, and describe their impact on existing specifications and implementation. Principles are binding unless an approved exception exists. Feature specifications, plans, and code reviews SHOULD reference the applicable principle or quality gate when the connection is not obvious.
