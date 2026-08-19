@@ -248,4 +248,4 @@ Excluded:
 | Duplicate refresh execution | Duplicate data or inconsistent state | Database uniqueness, transaction boundaries, and concurrency lock/lease |
 | Credential leakage | Security incident | Secret manager/environment-only configuration, redacted logs, scanning, and least privilege |
 | Unbounded issue volume | Slow refresh or oversized API response | Expected/max volume decision, pagination, indexes, bounded risk results, and performance testing |
-| Hidden personal data retention | Compliance exposure | Field minimization, retention policy, access controls, and deletion/anonymization procedure |
+| Hidden personal data retention | Compliance exposure | Field minimization, retention policy, access controls, and deletion/anonymization procedure |,

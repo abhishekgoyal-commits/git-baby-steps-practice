@@ -324,4 +324,4 @@ Docker is required for PostgreSQL development and CI, but production topology, b
 
 ## Review Conclusion
 
-The specification should remain in Draft status until the first seven clarification groups are answered. Once those decisions are recorded, the implementation plan can be decomposed safely without guessing at Jira semantics, data integrity, security boundaries, or stale/partial dashboard behavior.
+The specification should remain in Draft status until the first seven clarification groups are answered. Once those decisions are recorded, the implementation plan can be decomposed safely without guessing at Jira semantics, data integrity, security boundaries, or stale/partial dashboard behavior.,
