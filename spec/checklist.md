@@ -183,7 +183,7 @@ The backend exposes `/api/dashboard`, but it is not versioned and returns only `
 | SC-006 | Automated tests cover required behavior | No | No | Backend test files are empty; no frontend tests or test scripts. |
 | SC-007 | No secrets in repository/bundles/API/logs | Partial | Unverified | No Jira credentials are present; Compose includes a development password and no scanning evidence exists. |
 | SC-008 | Docker starts PostgreSQL and applies migrations | Partial | No | Compose defines PostgreSQL 15, but Docker was unavailable and no migrations exist. |
-| SC-009 | MVP remains one sprint and no Confluence publishing | Implemented at documentation level | Unverified at runtime | Specification and plan define the boundary; no runtime feature set exists beyond the scaffold. |
+| SC-009 | MVP remains one sprint and no Confluence publishing | Implemented at documentation level | Unverified at runtime | Specification and plan define the boundary; no runtime feature set exists beyond the scaffold.. |
 
 ## Verification Gaps
 
