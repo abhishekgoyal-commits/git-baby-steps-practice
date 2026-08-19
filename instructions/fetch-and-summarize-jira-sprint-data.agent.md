@@ -1,0 +1,20 @@
+- Use this instruction when fetching Jira issues for one active sprint and converting them into a manager-facing summary table.
+- Accept input as a JQL string plus optional `max_results`; read `JIRA_BASE_URL`, `JIRA_EMAIL`, and `JIRA_API_TOKEN` from environment variables.
+- Request only the fields needed for processing: `summary`, `status`, `assignee`, `storyPoints`, and `duedate`.
+- Treat the Jira response as a list of issue objects under `payload.issues`; preserve each issue key and its original fields for traceability.
+- Require each issue to tolerate missing `fields`, `assignee`, `storyPoints`, `duedate`, or status values without crashing.
+- Reject missing Jira email or API token before making a request, and never print or include credentials in logs or output.
+- Use the Jira REST search endpoint with a 30-second timeout and surface authentication, rate-limit, network, and HTTP errors as actionable failures.
+- Normalize missing story points to `0` and missing assignees to `Unassigned`.
+- Count an issue as completed when its lowercased status is `done`, `closed`, or `resolved`.
+- Count an issue as blocked when a label contains `blocked`; do not treat unrelated labels as blockers.
+- Count an issue as overdue when a valid `duedate` in `YYYY-MM-DD` is earlier than the current date; ignore invalid or absent dates.
+- Calculate total, completed, and remaining story points; total, completed, and remaining issue counts; completion percentage; blocked count; and overdue count.
+- Calculate completion percentage from story points when total story points are greater than zero; otherwise return `0.0`.
+- Round completion percentage to one decimal place and ensure remaining values are total minus completed values.
+- Group issues by assignee display name and calculate the same sprint metrics for each group.
+- Format the summary table as Markdown with columns `Assignee`, `Planned Points`, `Completed Points`, `Remaining Points`, `Completion`, `Remaining Issues`, `Blocked`, and `Overdue`.
+- Include a sprint summary before the table with planned/completed/remaining points, planned/completed/remaining issues, completion percentage, blocked count, and overdue count.
+- Sort assignee rows by assignee name, placing `Unassigned` according to normal alphabetical ordering.
+- Keep output deterministic, concise, and suitable for stakeholder review; do not include raw API payloads, credentials, or unsupported inferred metrics.
+- Validate the empty-issue case, all-completed case, no-completed case, mixed statuses, missing fields, blocked labels, overdue dates, and malformed dates before release.

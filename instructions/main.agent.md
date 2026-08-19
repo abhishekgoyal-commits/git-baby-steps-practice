@@ -23,12 +23,14 @@ This directory contains specialized agent instructions for common project tasks.
 
 **Usage:** When adding, revising, validating, or wiring project instruction files
 
-### [implement-phase-1-and-2.agent.md](implement-phase-1-and-2.agent.md)
-**Purpose:** Implement Jira dashboard setup and MVP features from Phase 1 and Phase 2
+### [fetch-and-summarize-jira-sprint-data.agent.md](fetch-and-summarize-jira-sprint-data.agent.md)
+**Purpose:** Fetch Jira sprint issues and produce deterministic sprint metrics and an assignee summary table
 
-**Keywords:** Phase 1, Phase 2, setup infrastructure, Jira data layer, sprint metrics, Flask dashboard, MVP
+**Keywords:** fetch Jira issues, Jira API, sprint data, format issue data, sprint summary, summary table
 
-**Usage:** When implementing or validating backlog items in the first two project phases
+**Target:** `data_fetcher.py`, `report_formatter.py`, Jira issue-processing workflows
+
+**Usage:** When retrieving, validating, aggregating, or formatting active-sprint issue data
 
 ---
 
