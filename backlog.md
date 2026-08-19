@@ -6,6 +6,8 @@
 
 **Recommended Stack:** Python (backend) + Flask (lightweight web app) + Jira REST API
 
+note which tasks now have corresponding GitHub issues (add the issue number next to each task)
+
 ---
 
 ## Phase 1: Setup & Infrastructure
