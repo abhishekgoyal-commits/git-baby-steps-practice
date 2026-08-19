@@ -23,6 +23,13 @@ This directory contains specialized agent instructions for common project tasks.
 
 **Usage:** When adding, revising, validating, or wiring project instruction files
 
+### [implement-phase-1-and-2.agent.md](implement-phase-1-and-2.agent.md)
+**Purpose:** Implement Jira dashboard setup and MVP features from Phase 1 and Phase 2
+
+**Keywords:** Phase 1, Phase 2, setup infrastructure, Jira data layer, sprint metrics, Flask dashboard, MVP
+
+**Usage:** When implementing or validating backlog items in the first two project phases
+
 ---
 
 ## Adding New Instructions
